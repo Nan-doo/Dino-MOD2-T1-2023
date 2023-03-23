@@ -119,7 +119,7 @@ class Game:
             self.y_lua -= 0.20
             if self.x_lua >= SCREEN_WIDTH:
                 self.x_sol = - 100
-                self.x_sol = 200
+                self.y_sol = 200
             if self.x_lua > SCREEN_WIDTH / 2:
                 self.y_lua += 0.40
 
